@@ -6,7 +6,7 @@ var calendar = {
 	fadeInterval: 1000,
 	intervalId: null,
 	dataIntervalId: null,
-	maximumEntries: config.calendar.maximumEntries || 10,
+	maximumEntries: config.calendar.maximumEntries || 5,
 	calendarUrl: (typeof config.calendar.urls == 'undefined') ? config.calendar.url : config.calendar.urls[0].url,
 	calendarPos: 0,
 	defaultSymbol: config.calendar.defaultSymbol || 'none',
